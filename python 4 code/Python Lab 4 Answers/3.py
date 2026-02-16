@@ -1,0 +1,10 @@
+fp = open('test1.txt')
+a = fp.read()
+fp.close()
+fp = open('test2.txt')
+b = fp.read()
+fp.close()
+fp = open('test3.txt', 'w')
+l = a + b
+fp.write(l)
+fp.close()
