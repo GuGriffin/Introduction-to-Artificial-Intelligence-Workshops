@@ -11,5 +11,7 @@ conda activate aim
 ```
 conda install -c conda-forge -y ipython jupyter
 ```
-
+```
+pip install -r requirements.txt
+```
 Then follow the instructions in [Setup-and-test-conda-environment.ipynb](Setup-and-test-conda-environment.ipynb) to setup the enviroment and install the libraries you will need later in this unit.
